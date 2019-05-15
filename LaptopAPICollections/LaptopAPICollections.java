@@ -60,7 +60,7 @@ class LaptopAPICollections
                 int i = sc.nextInt();
                 int r = sc.nextInt();
                 int h = sc.nextInt();
-                sc.nextLine();// NOTE - V.IMP.
+            
                 String b = sc.nextLine();
                 list.add(new Laptop(i,r,h,b));
                 System.out.println("Laptop details added...");
@@ -79,7 +79,6 @@ class LaptopAPICollections
 
                 case 3: System.out.println("For searching through Id press 1, through Brand press 2, through Ram Size press 3, through HDD Size press 4");
                 int n1 = sc.nextInt();
-                sc.nextLine();
                 switch(n1)
                 {
                     case 1:System.out.println("Enter the Id to be searched :- ");
@@ -161,7 +160,6 @@ class LaptopAPICollections
                  if(upd == 1)
                  {  
                     System.out.println("Enter the new brand :-");
-                    sc.nextLine();
                     String b2=sc.nextLine();
                     for(int x=0; x<list.size(); x++)
                     {
