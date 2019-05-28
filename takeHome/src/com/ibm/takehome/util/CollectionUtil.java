@@ -13,7 +13,7 @@ public class CollectionUtil {
 	public void startService() {
 		service.setProductDetails(new Product(1001, 35000, "iPhone", "Electronics", "Mobile Phone"));
 		service.setProductDetails(new Product(1002, 45000, "LED TV", "Electronics", "LG LED TV"));
-		service.setProductDetails(new Product(1003, 800, "Ferrari", "Cars", "Sports car"));
-		service.setProductDetails(new Product(1004, 5000,"Stick", "Wood Items", "Wooden Stick"));
+		service.setProductDetails(new Product(1003, 800, "Teddy", "Toys", "Teddy bear"));
+		service.setProductDetails(new Product(1004, 5000,"Telescope", "Toys", "Telescope"));
 	}
 }
